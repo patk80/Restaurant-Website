@@ -6,14 +6,36 @@
 
 nav {
     background-color: #ffeeda;
-    padding: 20px 0;
+    padding: 20px 5px;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar-ul {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .navbar-ul li {
     list-style-type: none;
+}
+
+.toggle-button {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar-ul {
+        flex-direction: column;
+    }
+
+    .navbar-ul li {
+        display: none;
+    }
+
+    .toggle-button {
+        display: block;
+        align-self: flex-end;
+    }
 }
