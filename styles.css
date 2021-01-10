@@ -3,3 +3,17 @@
     margin: 0;
     padding: 0;
 }
+
+nav {
+    background-color: #ffeeda;
+    padding: 20px 0;
+}
+
+.navbar-ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-ul li {
+    list-style-type: none;
+}
