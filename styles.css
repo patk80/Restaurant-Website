@@ -69,7 +69,7 @@
 }
 
 .bar {
-    background-color: #ff7900;
+    background-color: #000;
     height: 3px;
     width: 35px;
     transition: all 0.75s;
