@@ -1,2 +1,2 @@
 # Restaurant-Website
-Restaurant Website
+Kiku Restaurant Website - Multi-page website
