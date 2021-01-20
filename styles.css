@@ -142,7 +142,10 @@
     padding: 20px;
 }
 
-
+.hero-section {
+    display: flex;
+    justify-content: center;
+}
 
 
 
